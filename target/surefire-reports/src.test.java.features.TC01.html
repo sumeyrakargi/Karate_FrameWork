@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.features.TC01</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">0</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">1</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2023-04-01 11:11:02 &Ouml;&Ouml;</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item failed">
+                        <a href="#[1:2]">[1:2] TC01 </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/TC01.feature</span><span class="feature-description">Automation Exercies US01</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:2]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">TC01 </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 9815</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">* configure driver = { type: 'chrome', executable: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] }</div>
+                        </div>
+                        <div class="time-cell passed">23</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">11:10:52.348 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">Given driver 'http://www.automationexercise.com'</div>
+                        </div>
+                        <div class="time-cell passed">2580</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">* driver maximize()</div>
+                        </div>
+                        <div class="time-cell passed">81</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">* def homeText = text("//i[@class='fa fa-home']")</div>
+                        </div>
+                        <div class="time-cell passed">83</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">* def title = driver.title</div>
+                        </div>
+                        <div class="time-cell passed">18</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">And match title == 'Automation Exercise'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">And assert title == 'Automation Exercise'</div>
+                        </div>
+                        <div class="time-cell passed">14</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">* click("//a[normalize-space()='Signup / Login']")</div>
+                        </div>
+                        <div class="time-cell passed">46</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">* def NewLogin = text("//*[.='Login to your account']")</div>
+                        </div>
+                        <div class="time-cell passed">738</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">Then match NewLogin == 'Login to your account'</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">* delay(3000)</div>
+                        </div>
+                        <div class="time-cell passed">3029</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
+                            <div class="step-cell passed">* def bytes = screenshot(false)</div>
+                        </div>
+                        <div class="time-cell passed">152</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
+                            <div class="step-cell passed">* def file = karate.write(bytes,'test.png')</div>
+                        </div>
+                        <div class="time-cell passed">13</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref failed">14</div>
+                            <div class="step-cell failed">Then input("(//input[@name='email'])[1]","Rooney")</div>
+                        </div>
+                        <div class="time-cell failed">3030</div>
+                    </div>
+                    <div class="preformatted" data-parent="14">TC01.feature:16 - evaluation (js) failed: input("(//input[@name='email'])[1]","Rooney"), java.lang.RuntimeException: js eval failed twice:var e = (//input[@name='email'])[1]; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {"type":"object","subtype":"error","className":"SyntaxError","description":"SyntaxError: Unexpected end of input","objectId":"-3826900826899557355.2.3"}
+stack trace: com.intuit.karate.driver.DevToolsDriver.eval(DevToolsDriver.java:300)</div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

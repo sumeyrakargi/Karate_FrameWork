@@ -1,0 +1,16 @@
+<testsuite failures="1" name="src/test/java/features/petstore.feature" skipped="0" tests="1" time="0.945513">
+  <testcase classname="src.test.java.features.petstore" name="POST" time="0.945513">
+    <failure message="petstore.feature:24 - path: $.message, actual: '9223372036854746721', expected: '9223372036854771849', reason: not equal">* configure driver = { type: 'chrome', executable: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* url 'https://petstore.swagger.io/v2' .................................... passed
+* def rB = ................................................................ passed
+Given path '/user' ........................................................ passed
+And request rB ............................................................ passed
+When method post .......................................................... passed
+Then status 200 ........................................................... passed
+And match $.message == "9223372036854771849" .............................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: petstore.feature:24 - path: $.message, actual: '9223372036854746721', expected: '9223372036854771849', reason: not equal&#13;
+	at ✽.And match $.message == "9223372036854771849" (petstore.feature:24)</failure>
+  </testcase>
+</testsuite>

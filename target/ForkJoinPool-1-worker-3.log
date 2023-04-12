@@ -1,0 +1,24 @@
+11:15:47.393 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:15:47.652 request:
+1 > POST https://petstore.swagger.io/v2/user
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 127
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.15)
+{"username":"R1","firstName":"Ellly","lastName":"D","email":"d@email.com","password":"12345","phone":"22316446","userStatus":0}
+
+11:15:48.346 response time in milliseconds: 693,39
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sat, 01 Apr 2023 08:15:47 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":200,"type":"unknown","message":"9223372036854746721"}
+
+11:15:48.350 assertion failed: path: $.message, actual: '9223372036854746721', expected: '9223372036854771849', reason: not equal
